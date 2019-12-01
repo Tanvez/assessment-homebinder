@@ -13,7 +13,6 @@ const App = () => (
         <Route path="/" component={Login}/>
     </Switch>
   </BrowserRouter>
-  // <div className="App"> <Login  key='form'/> </div>
 )
 
 export default App
