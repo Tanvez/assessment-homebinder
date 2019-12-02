@@ -15,7 +15,9 @@ describe('Login Form Test', ()=>{
   });
 
   it('password minLength test', ()=>{
-    console.log('test', wrapper.find('input[type="password"]'))
     expect(wrapper.find('input[type="password"]').prop("minLength")).toBe("8")
+  })
+  it('email format test', ()=>{
+    // TODO
   })
 })

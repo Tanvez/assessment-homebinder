@@ -147,3 +147,15 @@ form button {
   margin-left: 2rem;
   color: red;
 }
+
+.custom-label {
+  margin-left: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  text-align: center;
+}
+
+#submit {
+  margin-bottom: 1rem;
+}
